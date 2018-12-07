@@ -9,7 +9,14 @@
 /* Begin PBXBuildFile section */
 		14E0713C21B9F2C50053B90F /* JGExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E0713221B9F2C50053B90F /* JGExtension.framework */; };
 		14E0714121B9F2C50053B90F /* JGExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E0714021B9F2C50053B90F /* JGExtensionTests.swift */; };
-		14E0714321B9F2C50053B90F /* JGExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 14E0713521B9F2C50053B90F /* JGExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14E0719221B9F3A30053B90F /* UIAlertController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E0719121B9F3A30053B90F /* UIAlertController+Extension.swift */; };
+		14E0719421B9F3BE0053B90F /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E0719321B9F3BE0053B90F /* String+Extension.swift */; };
+		14E0719621B9F3ED0053B90F /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E0719521B9F3ED0053B90F /* Date+Extension.swift */; };
+		14E0719821B9F48E0053B90F /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E0719721B9F48E0053B90F /* UIView+Extension.swift */; };
+		14E0719A21B9F4EE0053B90F /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E0719921B9F4EE0053B90F /* UIImage+Extension.swift */; };
+		14E0719C21B9F5250053B90F /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E0719B21B9F5250053B90F /* UIButton+Extension.swift */; };
+		14E0719E21B9F5800053B90F /* JGExtension.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 14E0719D21B9F5800053B90F /* JGExtension.podspec */; };
+		14E071A021B9F6070053B90F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14E0719F21B9F6070053B90F /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,11 +31,18 @@
 
 /* Begin PBXFileReference section */
 		14E0713221B9F2C50053B90F /* JGExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JGExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		14E0713521B9F2C50053B90F /* JGExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JGExtension.h; sourceTree = "<group>"; };
-		14E0713621B9F2C50053B90F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14E0713B21B9F2C50053B90F /* JGExtensionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JGExtensionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14E0714021B9F2C50053B90F /* JGExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JGExtensionTests.swift; sourceTree = "<group>"; };
 		14E0714221B9F2C50053B90F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14E0719021B9F36A0053B90F /* URL+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extension.swift"; sourceTree = "<group>"; };
+		14E0719121B9F3A30053B90F /* UIAlertController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Extension.swift"; sourceTree = "<group>"; };
+		14E0719321B9F3BE0053B90F /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		14E0719521B9F3ED0053B90F /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		14E0719721B9F48E0053B90F /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		14E0719921B9F4EE0053B90F /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		14E0719B21B9F5250053B90F /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		14E0719D21B9F5800053B90F /* JGExtension.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = JGExtension.podspec; path = ../JGExtension.podspec; sourceTree = "<group>"; };
+		14E0719F21B9F6070053B90F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +67,8 @@
 		14E0712821B9F2C50053B90F = {
 			isa = PBXGroup;
 			children = (
+				14E0719D21B9F5800053B90F /* JGExtension.podspec */,
+				14E0719F21B9F6070053B90F /* Info.plist */,
 				14E0713421B9F2C50053B90F /* JGExtension */,
 				14E0713F21B9F2C50053B90F /* JGExtensionTests */,
 				14E0713321B9F2C50053B90F /* Products */,
@@ -71,8 +87,13 @@
 		14E0713421B9F2C50053B90F /* JGExtension */ = {
 			isa = PBXGroup;
 			children = (
-				14E0713521B9F2C50053B90F /* JGExtension.h */,
-				14E0713621B9F2C50053B90F /* Info.plist */,
+				14E0719B21B9F5250053B90F /* UIButton+Extension.swift */,
+				14E0719921B9F4EE0053B90F /* UIImage+Extension.swift */,
+				14E0719721B9F48E0053B90F /* UIView+Extension.swift */,
+				14E0719521B9F3ED0053B90F /* Date+Extension.swift */,
+				14E0719321B9F3BE0053B90F /* String+Extension.swift */,
+				14E0719021B9F36A0053B90F /* URL+Extension.swift */,
+				14E0719121B9F3A30053B90F /* UIAlertController+Extension.swift */,
 			);
 			path = JGExtension;
 			sourceTree = "<group>";
@@ -93,7 +114,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14E0714321B9F2C50053B90F /* JGExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +168,7 @@
 				TargetAttributes = {
 					14E0713121B9F2C50053B90F = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					14E0713A21B9F2C50053B90F = {
 						CreatedOnToolsVersion = 10.1;
@@ -177,6 +198,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14E071A021B9F6070053B90F /* Info.plist in Resources */,
+				14E0719E21B9F5800053B90F /* JGExtension.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +217,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14E0719421B9F3BE0053B90F /* String+Extension.swift in Sources */,
+				14E0719221B9F3A30053B90F /* UIAlertController+Extension.swift in Sources */,
+				14E0719A21B9F4EE0053B90F /* UIImage+Extension.swift in Sources */,
+				14E0719821B9F48E0053B90F /* UIView+Extension.swift in Sources */,
+				14E0719621B9F3ED0053B90F /* Date+Extension.swift in Sources */,
+				14E0719C21B9F5250053B90F /* UIButton+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,13 +370,14 @@
 		14E0714721B9F2C50053B90F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = JGExtension/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -357,6 +387,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.junggate.JGExtension;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,13 +396,14 @@
 		14E0714821B9F2C50053B90F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = JGExtension/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -389,6 +421,7 @@
 		14E0714A21B9F2C50053B90F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = JGExtensionTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -406,6 +439,7 @@
 		14E0714B21B9F2C50053B90F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = JGExtensionTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
