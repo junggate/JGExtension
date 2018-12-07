@@ -12,6 +12,6 @@ s.license      = "MIT"
 s.author             = { "JungGate" => "josansnim@gmail.com" }
 
 s.platform     = :ios, "11.0"
-s.source       = { :git => "https://github.com/junggate/JGTabBarView.git", :branch => "master" }
+s.source       = { :git => "https://github.com/junggate/JGExtension.git", :branch => "master" }
 s.source_files  = 'JGExtension/JGExtension/**/*'
 end
