@@ -45,6 +45,13 @@
 			remoteGlobalIDString = 14E0713B21B9F2C50053B90F;
 			remoteInfo = JGExtensionTests;
 		};
+		14E071AA21BA03BF0053B90F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14E0718621B9F3060053B90F /* JGExtension.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 14E0713121B9F2C50053B90F;
+			remoteInfo = JGExtension;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -164,6 +171,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				14E071AB21BA03BF0053B90F /* PBXTargetDependency */,
 			);
 			name = JGExtensionExample;
 			productName = JGExtensionExample;
@@ -337,6 +345,11 @@
 			isa = PBXTargetDependency;
 			target = 14E0715421B9F2D40053B90F /* JGExtensionExample */;
 			targetProxy = 14E0717521B9F2D50053B90F /* PBXContainerItemProxy */;
+		};
+		14E071AB21BA03BF0053B90F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JGExtension;
+			targetProxy = 14E071AA21BA03BF0053B90F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

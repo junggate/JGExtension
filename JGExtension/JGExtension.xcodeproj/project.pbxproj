@@ -16,7 +16,6 @@
 		14E0719A21B9F4EE0053B90F /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E0719921B9F4EE0053B90F /* UIImage+Extension.swift */; };
 		14E0719C21B9F5250053B90F /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E0719B21B9F5250053B90F /* UIButton+Extension.swift */; };
 		14E0719E21B9F5800053B90F /* JGExtension.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 14E0719D21B9F5800053B90F /* JGExtension.podspec */; };
-		14E071A021B9F6070053B90F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14E0719F21B9F6070053B90F /* Info.plist */; };
 		14E071A121B9FE860053B90F /* UIButton+Extension.swift in Headers */ = {isa = PBXBuildFile; fileRef = 14E0719B21B9F5250053B90F /* UIButton+Extension.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		14E071A221B9FE860053B90F /* UIImage+Extension.swift in Headers */ = {isa = PBXBuildFile; fileRef = 14E0719921B9F4EE0053B90F /* UIImage+Extension.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		14E071A321B9FE860053B90F /* UIView+Extension.swift in Headers */ = {isa = PBXBuildFile; fileRef = 14E0719721B9F48E0053B90F /* UIView+Extension.swift */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -49,7 +48,7 @@
 		14E0719921B9F4EE0053B90F /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		14E0719B21B9F5250053B90F /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 		14E0719D21B9F5800053B90F /* JGExtension.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = JGExtension.podspec; path = ../JGExtension.podspec; sourceTree = "<group>"; };
-		14E0719F21B9F6070053B90F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14E071AC21BA04F50053B90F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				14E0719D21B9F5800053B90F /* JGExtension.podspec */,
-				14E0719F21B9F6070053B90F /* Info.plist */,
+				14E071AC21BA04F50053B90F /* Info.plist */,
 				14E0713421B9F2C50053B90F /* JGExtension */,
 				14E0713F21B9F2C50053B90F /* JGExtensionTests */,
 				14E0713321B9F2C50053B90F /* Products */,
@@ -212,7 +211,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14E071A021B9F6070053B90F /* Info.plist in Resources */,
 				14E0719E21B9F5800053B90F /* JGExtension.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
