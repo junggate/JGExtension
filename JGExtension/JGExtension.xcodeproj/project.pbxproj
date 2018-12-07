@@ -17,6 +17,13 @@
 		14E0719C21B9F5250053B90F /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E0719B21B9F5250053B90F /* UIButton+Extension.swift */; };
 		14E0719E21B9F5800053B90F /* JGExtension.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 14E0719D21B9F5800053B90F /* JGExtension.podspec */; };
 		14E071A021B9F6070053B90F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14E0719F21B9F6070053B90F /* Info.plist */; };
+		14E071A121B9FE860053B90F /* UIButton+Extension.swift in Headers */ = {isa = PBXBuildFile; fileRef = 14E0719B21B9F5250053B90F /* UIButton+Extension.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		14E071A221B9FE860053B90F /* UIImage+Extension.swift in Headers */ = {isa = PBXBuildFile; fileRef = 14E0719921B9F4EE0053B90F /* UIImage+Extension.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		14E071A321B9FE860053B90F /* UIView+Extension.swift in Headers */ = {isa = PBXBuildFile; fileRef = 14E0719721B9F48E0053B90F /* UIView+Extension.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		14E071A421B9FE860053B90F /* Date+Extension.swift in Headers */ = {isa = PBXBuildFile; fileRef = 14E0719521B9F3ED0053B90F /* Date+Extension.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		14E071A521B9FE860053B90F /* String+Extension.swift in Headers */ = {isa = PBXBuildFile; fileRef = 14E0719321B9F3BE0053B90F /* String+Extension.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		14E071A621B9FE860053B90F /* URL+Extension.swift in Headers */ = {isa = PBXBuildFile; fileRef = 14E0719021B9F36A0053B90F /* URL+Extension.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		14E071A721B9FE860053B90F /* UIAlertController+Extension.swift in Headers */ = {isa = PBXBuildFile; fileRef = 14E0719121B9F3A30053B90F /* UIAlertController+Extension.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +121,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14E071A121B9FE860053B90F /* UIButton+Extension.swift in Headers */,
+				14E071A221B9FE860053B90F /* UIImage+Extension.swift in Headers */,
+				14E071A321B9FE860053B90F /* UIView+Extension.swift in Headers */,
+				14E071A421B9FE860053B90F /* Date+Extension.swift in Headers */,
+				14E071A521B9FE860053B90F /* String+Extension.swift in Headers */,
+				14E071A621B9FE860053B90F /* URL+Extension.swift in Headers */,
+				14E071A721B9FE860053B90F /* UIAlertController+Extension.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
